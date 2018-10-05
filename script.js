@@ -12,7 +12,5 @@ $("#btn-add").click(function() {
   $(".remove").click(deleteBtn);
 });
 function deleteBtn() {
-  $(this)
-    .parent(".note")
-    .hide("puff", { percent: 133 }, 250);
+  $("#table").remove();
 }

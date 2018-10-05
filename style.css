@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+body { background:url(https://subtlepatterns.com/patterns/little_pluses.png) #cacaca; margin:30px; }
+
+textarea {
+  font:24px 'Gloria Hallelujah', cursive; 
+  line-height:1.5;
+  border:0;
+  border-radius:3px;
+  background: linear-gradient(#F9EFAF, #F7E98D);
+  box-shadow:0 4px 6px rgba(0,0,0,0.1);
+  overflow:hidden;
+  transition:box-shadow 0.5s ease;
+  max-width:520px;
+  max-height:250px;
+  
+}
+.title {
+		font-size: 24px;
+		line-height: 1.2;
+		color: #000000;
+		height: 64px;
+		margin-top: 20px;
+	}
+	.cnt {
+		min-height: 200px;
+	}
+.note {
+	float: left;
+	display: block;
+	position: relative;
+	width: 300px;
+	min-height: 300px;
+	margin: 0 30px 30px 0;
+	background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+	background-color: #FFFD75;
+	box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);
+	transform: rotate(2deg);
+	transform: skew(-1deg,1deg);
+	transition: transform .15s;
+	z-index: 1;
+}
+#deleteBtn{
+  position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #E01C12;
+	text-align: center;
+	line-height: 16px;
+	border-color: #B30000;
+	font-weight: bolder;
+	font-family: Helvetica, Arial, sans-serif;
+}
